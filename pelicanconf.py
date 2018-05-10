@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Susanne Meerwald-Stadler'
 SITENAME = u'smeerws'
 SITEURL = ''
-THEME = u'pelican-cait'
+THEME = u'themes/pelican-cait'
 
 PATH = 'content'
 
