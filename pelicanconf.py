@@ -41,7 +41,7 @@ SOCIAL = (('twitter', 'https://twitter.com/paulomiramor'),
           ('linkedin', 'http://www.linkedin.com/in/XXXXXXX'),
           ('github', 'https://github.com/EuPaulo'),)
 
-DEFAULT_PAGINATION = 4
+DEFAULT_PAGINATION = 12
 
 STATIC_PATHS = ['images', 'pdfs' , 'pages']
 
