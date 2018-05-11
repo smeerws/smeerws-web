@@ -27,9 +27,10 @@ AUTHOR_FEED_RSS = None
 
 USE_CUSTOM_MENU = True
 
-CUSTOM_MENUITEMS = (('VR-Tools', 'pages/vrpainting.html'),
-                    ('Acryl', 'category/acryl.html'),
-                    ('About Me', 'pages/contact.html'))
+CUSTOM_MENUITEMS = (('VR-Tools', 'pages/vr-werkzeuge.html'),
+                    ('VR-Painting', 'category/vr-painting.html'),
+                    ('Acryl-Painting', 'category/acryl.html'),
+                    ('About Me', 'pages/about-me.html'))
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
