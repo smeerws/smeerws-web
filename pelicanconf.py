@@ -28,6 +28,7 @@ AUTHOR_FEED_RSS = None
 USE_CUSTOM_MENU = True
 
 CUSTOM_MENUITEMS = (('VR-Tools', 'pages/vrpainting.html'),
+                    ('Acryl', 'category/acryl.html'),
                     ('About Me', 'pages/contact.html'))
 
 # Blogroll
