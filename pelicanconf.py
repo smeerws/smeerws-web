@@ -27,10 +27,12 @@ AUTHOR_FEED_RSS = None
 
 USE_CUSTOM_MENU = True
 
-CUSTOM_MENUITEMS = (('VR-Tools', 'pages/vr-werkzeuge.html'),
-                    ('VR-Painting', 'category/vr-painting.html'),
-                    ('Acryl-Painting', 'category/acryl.html'),
-                    ('About Me', 'pages/about-me.html'))
+CUSTOM_MENUITEMS = (('Acryl-Malerei', 'category/acryl-malerei.html'),
+		    ('VR-Malerei', 'category/vr-malerei.html'),
+                    ('VR-Modellieren', 'category/vr-modellieren.html'),
+                    ('VR-Werkzeuge', 'pages/vr-werkzeuge.html'),
+                    ('Über mich', 'pages/uber-mich.html'),
+                    ('Sammelsurium', 'pages/sammelsurium.html'),)
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
