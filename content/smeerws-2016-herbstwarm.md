@@ -1,6 +1,6 @@
 Title: "Herbstwarm 2016"
 Date: 2016-07-03 10:07
-Category: Acryl;
+Category: Acryl-Malerei;
 
 ![Herbstwarm](./images/acryl/smeerws-2016-herbstwarm.jpg "Herbstwarm")
 
