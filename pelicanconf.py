@@ -40,10 +40,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
+CONTACT_EMAIL = "hello@smeerws.at"
+
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/paulomiramor'),
-          ('linkedin', 'http://www.linkedin.com/in/XXXXXXX'),
-          ('github', 'https://github.com/EuPaulo'),)
+SOCIAL = (('twitter', 'https://twitter.com/smeerws'),
+          ('linkedin', 'https://www.linkedin.com/in/susannestadler/'),
+          ('github', 'https://github.com/smeerws'),)
 
 DEFAULT_PAGINATION = 12
 
