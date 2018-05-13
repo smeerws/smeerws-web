@@ -39,11 +39,11 @@
             {% endif %}
         {% endif %}
         {% block stylesheets %}
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/normalize.css">
-        <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css">
         {% endblock stylesheets %}
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -51,7 +51,7 @@
         {% if FEED_ALL_RSS %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
-        <script src="{{ SITEURL }}/theme/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -64,6 +64,6 @@
         </div>
 
         {% include "ga.html" %}
-        <script src="{{ SITEURL }}/theme/js/main.js"></script>
+        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
     </body>
 </html>

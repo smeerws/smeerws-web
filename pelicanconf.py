@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Susanne Meerwald-Stadler'
 SITENAME = u'smeerws'
 SITEURL = ''
-SITESUBTITLE= 'Hallo! Mein Hintergrund ist Informatik mit dem Fokus auf User Experience (UX) Design. Ich liebe alles was mit Robotern, Augmented und Virtual Reality zu tun hat.  In letzter Zeit habe ich meine Leidenschaft für Kunst wiederentdeckt. Jetzt habe ich angefangen meine Faehigkeiten und meine Leidenschaft zu verbinden und die virtuelle Realitaet und ihre Moeglichkeiten zu erforschen. Wer mich dabei unterstützen moechte ist eingeladen mir eine Tasse Kaffee zu kaufen unter https://www.buymeacoffee.com/smeerws'
+SITESUBTITLE = 'Hallo! Mein Hintergrund ist Informatik mit dem Fokus auf User Experience (UX) Design. Ich liebe alles was mit Robotern, Augmented und Virtual Reality zu tun hat.  In letzter Zeit habe ich meine Leidenschaft für Kunst wiederentdeckt. Jetzt habe ich angefangen meine Fähigkeiten und meine Leidenschaft zu verbinden und die virtuelle Realität und ihre Möglichkeiten zu erforschen. Wer mich dabei unterstützen möchte ist eingeladen, mir eine Tasse Kaffee zu kaufen unter https://www.buymeacoffee.com/smeerws'
 THEME = u'themes/pelican-cait'
 
 PATH = 'content'
@@ -50,7 +50,22 @@ CONTACTS = (('twitter', 'https://twitter.com/smeerws'),
 
 DEFAULT_PAGINATION = 12
 
-STATIC_PATHS = ['images', 'pdfs' , 'pages']
+STATIC_PATHS = ['images', 'pdfs', 'pages']
+
+PLUGIN_PATHS = ['plugins',]
+PLUGINS = ['i18n_subsites',]
+
+I18N_SUBSITES = {
+    'en': {
+    'SITESUBTITLE': 'Hello! My background is computer science with a focus on user experience (UX) design. I love everything related to robots, augmented and virtual reality. Recently, I have rediscovered my passion for art. Now I have started to bring together my abilities with my passion to discover virtual reality and its potentials. Those you\'d like to support me are invited to <a href="https://www.buymeacoffee.com/smeerws">buy me a coffee</a>.',
+    'CUSTOM_MENUITEMS': (('Acryl-Malerei', 'category/acryl-malerei.html'),
+		    ('VR-Paintings', 'category/vr-paintings.html'),
+                    ('VR-Modellieren', 'category/vr-modellieren.html'),
+                    ('VR-Werkzeuge', 'pages/vr-werkzeuge.html'),
+                    ('About me', 'pages/uber-mich.html'),
+                    ('Rugbag', 'pages/sammelsurium.html'),),
+    }
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

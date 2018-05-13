@@ -1,12 +1,12 @@
 Title: "Takeoff 2018"
 Date: 2018-03-28 20:00
-Category: VR-Malerei
-Lang: de
+Category: VR-Paintings
+Lang: en
 
 ![Takeoff]({filename}images/vrtakeoff/cr-smeerws-takeoff1.jpg "Takeoff")
 
 
-Diese Welt "Takeoff" wurde mit [Tilt Brush](https://www.tiltbrush.com/), einem 3D Mal- und Zeichenprogramm, in der virtuellen Realität (VR) erschaffen. Die [3D-Version von "Takeoff" ist auf Poly](https://poly.google.com/view/59etaUGzSNF), einer Plattform zum Teilen von 3D-Inhalten, veröffentlicht. Die folgenden Bilder sind sozusagen Photographien aus dieser ganz eigens erschaffenen Welt und wurden auf Kunstdruckpapier in unterschiedlichen Größen gedruckt.
+The virtual world "Takeoff" has been realized in Virtual Reality (VR) with [Tilt Brush](https://www.tiltbrush.com/), a 3D painting and drawing software. The [3D version of "Takeoff" is on Poly](https://poly.google.com/view/59etaUGzSNF), a platform to share and publish 3D contents. The following images are so-to-say photographies taken from this created wrold and have been printed on art paper in different sizes.
 
 # Kunstdrucke:
 
