@@ -5,7 +5,10 @@ from __future__ import unicode_literals
 AUTHOR = u'Susanne Meerwald-Stadler'
 SITENAME = u'smeerws'
 SITEURL = ''
-SITESUBTITLE = 'Hallo! Mein Hintergrund ist Informatik mit dem Fokus auf User Experience (UX) Design. Ich liebe alles was mit Robotern, Augmented und Virtual Reality zu tun hat.  In letzter Zeit habe ich meine Leidenschaft für Kunst wiederentdeckt. Jetzt habe ich angefangen meine Fähigkeiten und meine Leidenschaft zu verbinden und die virtuelle Realität und ihre Möglichkeiten zu erforschen. Wer mich dabei unterstützen möchte ist eingeladen, mir eine Tasse Kaffee zu kaufen unter https://www.buymeacoffee.com/smeerws'
+SITEDESCRIPTION='Site Description'
+#SITESUBTITLE = 'Hallo! Mein Hintergrund ist Informatik mit dem Fokus auf User Experience (UX) Design. Ich liebe alles was mit Robotern, Augmented und Virtual Reality zu tun hat.  In letzter Zeit habe ich meine Leidenschaft für Kunst wiederentdeckt. Jetzt habe ich angefangen meine Fähigkeiten und meine Leidenschaft zu verbinden und die virtuelle Realität und ihre Möglichkeiten zu erforschen. Wer mich dabei unterstützen möchte ist eingeladen, mir eine Tasse Kaffee zu kaufen unter https://www.buymeacoffee.com/smeerws'
+SITESUBTITLE = 'Hi! Ich liebe es kreativ zu arbeiten, in jeder Realität, die mir zur Verfügung steht. Meine Werkzeuge reichen von Pinsel und Leinwand bis zum plastischen Gestalten mit Brille und Kreativprogramm in der virtuellen Realität.'
+#SITESUBTITLE = 'VR [Artist]'
 THEME = u'themes/pelican-cait'
 
 PATH = 'content'
@@ -29,24 +32,28 @@ AUTHOR_FEED_RSS = None
 USE_CUSTOM_MENU = True
 
 CUSTOM_MENUITEMS = (('Acryl-Malerei', 'category/acryl-malerei.html'),
-		    ('VR-Malerei', 'category/vr-malerei.html'),
+		    ('VR-Photomalerei', 'category/vr-malerei.html'),
                     ('VR-Modellieren', 'category/vr-modellieren.html'),
-                    ('VR-Werkzeuge', 'pages/vr-werkzeuge.html'),
+                    ('VR-Werkzeuge', 'category/vr-werkzeuge.html'),
                     ('Über mich', 'pages/uber-mich.html'),
-                    ('Sammelsurium', 'pages/sammelsurium.html'),)
+                    ('Sammelsurium', 'category/sammelsurium.html'),
+                    ('Buy me a coffee', 'https://www.buymeacoffee.com/smeerws'),)
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 CONTACT_EMAIL = "hello@smeerws.at"
 
 # Social widget swithced from social to contacts for Contact page
 CONTACTS = (('twitter', 'https://twitter.com/smeerws'),
-          ('linkedin', 'https://www.linkedin.com/in/susannestadler/'),
-          ('github', 'https://github.com/smeerws'),)
+            ('linkedin', 'https://www.linkedin.com/in/susannestadler/'),
+            ('github', 'https://github.com/smeerws'),
+            ('bmc', 'https://www.buymeacoffee.com/smeerws'),
+            ('poly', 'https://poly.google.com/user/deXEWo4P-yG'),
+            ('sketchfab', 'https://sketchfab.com/smeerws'),)
 
 DEFAULT_PAGINATION = 12
 
@@ -58,12 +65,13 @@ PLUGINS = ['i18n_subsites',]
 I18N_SUBSITES = {
     'en': {
     'SITESUBTITLE': 'Hello! My background is computer science with a focus on user experience (UX) design. I love everything related to robots, augmented and virtual reality. Recently, I have rediscovered my passion for art. Now I have started to bring together my abilities with my passion to discover virtual reality and its potentials. Those you\'d like to support me are invited to <a href="https://www.buymeacoffee.com/smeerws">buy me a coffee</a>.',
-    'CUSTOM_MENUITEMS': (('Acryl-Malerei', 'category/acryl-malerei.html'),
+    'CUSTOM_MENUITEMS': (('Acrylic-Painting', 'category/acryl-malerei.html'),
 		    ('VR-Paintings', 'category/vr-paintings.html'),
-                    ('VR-Modellieren', 'category/vr-modellieren.html'),
-                    ('VR-Werkzeuge', 'pages/vr-werkzeuge.html'),
-                    ('About me', 'pages/uber-mich.html'),
-                    ('Rugbag', 'pages/sammelsurium.html'),),
+                    ('VR-Sculpting', 'category/vr-sculpting.html'),
+                    ('VR-Tools', 'pages/vr-tools.html'),
+                    ('About me', 'pages/abount-me.html'),
+                    ('Ragbag', 'pages/ragbag.html'),
+                    ('Buy me a coffe', 'https://www.buymeacoffee.com/smeerws'),)
     }
 }
 
