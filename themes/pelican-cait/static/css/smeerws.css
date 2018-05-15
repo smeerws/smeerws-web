@@ -1,0 +1,43 @@
+.logo-smeerws:before {
+    content: url("../img/xrartist-white-s1.png");
+    position: relative;
+    top: 10px;
+}
+
+
+.icon-bmc:before {
+    content: "";
+    background-image: url("../img/logo-bmc.png");
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.icon-sketchfab:before {
+    content: "";
+    background-image: url("../img/logo-sketchfab.png");
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.icon-poly:before {
+    content: "";
+    background-image: url("../img/logo-poly2.png");
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+#sidebar h1 {
+    /*background-color: blue;*/
+    margin: 0.35em 0;
+}
+
+#sidebar h1 .center{
+    /*background-color: blue;*/
+    text-align: center;
+}
