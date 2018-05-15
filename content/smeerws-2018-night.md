@@ -1,6 +1,7 @@
 Title: "Night 2018"
 Date: 2018-03-18 20:00
-Category: VR-Malerei;
+Category: VR-Photomalerei
+Lang: de
 
 ![Night]({filename}images/vrnight/cr-smeerws-night1.jpg "Night")
 

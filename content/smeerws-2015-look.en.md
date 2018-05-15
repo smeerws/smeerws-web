@@ -1,9 +1,9 @@
 Title: "Look 2015"
 Date: 2015-07-03 10:02
-Category: Acryl-Malerei;
-Lang: de
+Category: Acrylic-Painting;
+Lang: en
 
 ![Look]({filename}images/acryl/smeerws-2015-look.jpg "Look")
 
-Acryl auf Leinwand 50cmx60cm.
+Acrylic on canvas 50 x 60cm.
 

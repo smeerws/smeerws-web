@@ -1,7 +1,8 @@
 Title: "Fua 2018"
 Date: 2018-03-01 20:00
-Category: VR-Malerei;
-
+Category: VR-Photomalerei
+Tags: Tilt Brush
+Lang: de
 
 ![Fua]({filename}images/vrfua/cr-smeerws-fua1.jpg "Fua")
 

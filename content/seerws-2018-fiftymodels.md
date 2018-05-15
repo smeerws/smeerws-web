@@ -1,6 +1,7 @@
 Title: "Die ersten 50 3D-VR Modelle sind online!"
 Date: 2018-03-18 20:00
 Category: VR-Modellieren;
+Lang: de
 
 ![Animalzoo]({filename}images/animalzoo.png "Animalzoo")
 

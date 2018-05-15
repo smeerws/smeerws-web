@@ -2,6 +2,7 @@ Title: Über Mich
 Heading: SMEERWS
 Subheading: Logik bringt dich von A nach B. Deine Phantasie bringt dich überall hin. (Albert Einstein)
 Template: contact
+Lang: de
 
 <img src="../images/smeerws-photo.jpg" width="200">
 
@@ -13,4 +14,4 @@ Susanne Meerwald-Stadler
 
 Schießstandstrasse 3a, A-5061 Salzburg / AUSTRIA
 
-Mobile: 0676 7354716
+Mobile: +43 676 7354716
