@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Susanne Meerwald-Stadler'
-SITENAME = u'smeerws'
+SITENAME = u'[VR] Artist'
 SITEURL = ''
 SITEDESCRIPTION='Site Description'
 #SITESUBTITLE = 'Hallo! Mein Hintergrund ist Informatik mit dem Fokus auf User Experience (UX) Design. Ich liebe alles was mit Robotern, Augmented und Virtual Reality zu tun hat.  In letzter Zeit habe ich meine Leidenschaft für Kunst wiederentdeckt. Jetzt habe ich angefangen meine Fähigkeiten und meine Leidenschaft zu verbinden und die virtuelle Realität und ihre Möglichkeiten zu erforschen. Wer mich dabei unterstützen möchte ist eingeladen, mir eine Tasse Kaffee zu kaufen unter https://www.buymeacoffee.com/smeerws'
@@ -32,7 +32,7 @@ AUTHOR_FEED_RSS = None
 USE_CUSTOM_MENU = True
 
 CUSTOM_MENUITEMS = (('Acryl-Malerei', 'category/acryl-malerei.html'),
-		    ('VR-Photomalerei', 'category/vr-malerei.html'),
+		    ('VR-Photomalerei', 'category/vr-photomalerei.html'),
                     ('VR-Modellieren', 'category/vr-modellieren.html'),
                     ('VR-Werkzeuge', 'category/vr-werkzeuge.html'),
                     ('Über mich', 'pages/uber-mich.html'),
@@ -64,14 +64,15 @@ PLUGINS = ['i18n_subsites',]
 
 I18N_SUBSITES = {
     'en': {
-    'SITESUBTITLE': 'Hello! My background is computer science with a focus on user experience (UX) design. I love everything related to robots, augmented and virtual reality. Recently, I have rediscovered my passion for art. Now I have started to bring together my abilities with my passion to discover virtual reality and its potentials. Those you\'d like to support me are invited to <a href="https://www.buymeacoffee.com/smeerws">buy me a coffee</a>.',
-    'CUSTOM_MENUITEMS': (('Acrylic-Painting', 'category/acryl-malerei.html'),
-		    ('VR-Paintings', 'category/vr-paintings.html'),
+    #'SITESUBTITLE': 'Hello! My background is computer science with a focus on user experience (UX) design. I love everything related to robots, augmented and virtual reality. Recently, I have rediscovered my passion for art. Now I have started to bring together my abilities with my passion to discover virtual reality and its potentials. Those you\'d like to support me are invited to <a href="https://www.buymeacoffee.com/smeerws">buy me a coffee</a>.',
+    'SITESUBTITLE': 'Hi! I love it to work creatively, in every reality that is available to me. My tools range from brushes and canvas to sculptural design with VR glasses and creative programs in virtual reality.',
+    'CUSTOM_MENUITEMS': (('Acrylic-Painting', 'category/acrylic-painting.html'),
+		    ('VR-Photopainting', 'category/vr-photopainting.html'),
                     ('VR-Sculpting', 'category/vr-sculpting.html'),
-                    ('VR-Tools', 'pages/vr-tools.html'),
-                    ('About me', 'pages/abount-me.html'),
-                    ('Ragbag', 'pages/ragbag.html'),
-                    ('Buy me a coffe', 'https://www.buymeacoffee.com/smeerws'),)
+                    ('VR-Tools', 'category/vr-tools.html'),
+                    ('About me', 'pages/about-me.html'),
+                    ('Ragbag', 'category/ragbag.html'),
+                    ('Buy me a coffee', 'https://www.buymeacoffee.com/smeerws'),)
     }
 }
 
