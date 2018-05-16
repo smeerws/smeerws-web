@@ -1,5 +1,5 @@
 .logo-smeerws:before {
-    content: url("../img/xrartist-white-s1.png");
+    content: url("../img/logo-xrartist-white.png");
     position: relative;
     top: 10px;
 }
@@ -25,7 +25,7 @@
 
 .icon-poly:before {
     content: "";
-    background-image: url("../img/logo-poly2.png");
+    background-image: url("../img/logo-poly.png");
     background-size: 36px 36px;
     display: inline-block;
     width: 36px;
