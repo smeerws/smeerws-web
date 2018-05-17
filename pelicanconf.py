@@ -62,9 +62,14 @@ STATIC_PATHS = ['images', 'pdfs', 'pages']
 PLUGIN_PATHS = ['plugins',]
 PLUGINS = ['i18n_subsites',]
 
+LOCALE = {'en_US.utf8', 'de_AT.utf8'}
+DATE_FORMATS = {
+    'en': ('en_US.utf8', '%A, %B %d, %Y'),
+    'de': ('de_AT.utf8', '%A, %d. %B %Y'),
+}
+
 I18N_SUBSITES = {
     'en': {
-    #'SITESUBTITLE': 'Hello! My background is computer science with a focus on user experience (UX) design. I love everything related to robots, augmented and virtual reality. Recently, I have rediscovered my passion for art. Now I have started to bring together my abilities with my passion to discover virtual reality and its potentials. Those you\'d like to support me are invited to <a href="https://www.buymeacoffee.com/smeerws">buy me a coffee</a>.',
     'SITESUBTITLE': 'Hi! I love it to work creatively, in every reality that is available to me. My tools range from brushes and canvas to sculptural design with VR glasses and creative programs in virtual reality.',
     'CUSTOM_MENUITEMS': (('Acrylic-Painting', 'category/acrylic-painting.html'),
 		    ('VR-Photopainting', 'category/vr-photopainting.html'),
