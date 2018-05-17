@@ -3,7 +3,7 @@
 {% block content %}
 <div id="content-box">
     <header id="intro-header">
-        <h1>{{ page.heading }}</h1>
+        <h1><i class="logo-smeerws"></i></h1>
     </header>
     <div id="contact-form">
         <h2>{{ page.subheading }}</h2>
@@ -23,7 +23,11 @@
     <nav>
         <ul id="nav-links" class="centered-nav">
             {% for name, url in CUSTOM_MENUITEMS %}
+              {% if url.startswith('http') %}
+                 <li><a href="{{ url }}">{{ name }}</a></li>
+              {% else %}
                 <li><a href="{{ SITEURL }}/{{ url }}">{{ name }}</a></li>
+              {% endif %}
             {% endfor %}
         </ul>
     </nav>

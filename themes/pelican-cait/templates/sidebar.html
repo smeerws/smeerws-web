@@ -8,7 +8,11 @@
         <ul id="nav-links">
             {% if USE_CUSTOM_MENU %}
             {% for name, url in CUSTOM_MENUITEMS %}
-                <li><a href="{{ SITEURL }}/{{ url }}">{{ name }}</a></li>
+                {% if url.startswith('http') %}
+                    <li><a href="{{ url }}">{{ name }}</a></li>
+                {% else %}
+                    <li><a href="{{ SITEURL }}/{{ url }}">{{ name }}</a></li>
+                {% endif %}
             {% endfor %}
             {% else %}
             {% for page in PAGES %}
