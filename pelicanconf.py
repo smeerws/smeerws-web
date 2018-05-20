@@ -6,7 +6,6 @@ AUTHOR = u'Susanne Meerwald-Stadler'
 SITENAME = u'[VR] Artist'
 SITEURL = ''
 SITEDESCRIPTION='Site Description'
-#SITESUBTITLE = 'Hallo! Mein Hintergrund ist Informatik mit dem Fokus auf User Experience (UX) Design. Ich liebe alles was mit Robotern, Augmented und Virtual Reality zu tun hat.  In letzter Zeit habe ich meine Leidenschaft für Kunst wiederentdeckt. Jetzt habe ich angefangen meine Fähigkeiten und meine Leidenschaft zu verbinden und die virtuelle Realität und ihre Möglichkeiten zu erforschen. Wer mich dabei unterstützen möchte ist eingeladen, mir eine Tasse Kaffee zu kaufen unter https://www.buymeacoffee.com/smeerws'
 SITESUBTITLE = 'Hi! Ich liebe es kreativ zu arbeiten, in jeder Realität, die mir zur Verfügung steht. Meine Werkzeuge reichen von Pinsel und Leinwand bis zum plastischen Gestalten mit Brille und Kreativprogramm in der virtuellen Realität.'
 #SITESUBTITLE = 'VR [Artist]'
 THEME = u'themes/pelican-cait'
@@ -35,7 +34,7 @@ CUSTOM_MENUITEMS = (('Acryl-Malerei', 'category/acryl-malerei.html'),
 		    ('VR-Photomalerei', 'category/vr-photomalerei.html'),
                     ('VR-Modellieren', 'category/vr-modellieren.html'),
                     ('VR-Werkzeuge', 'category/vr-werkzeuge.html'),
-                    ('Über mich', 'pages/uber-mich.html'),
+                    ('Über mich', 'pages/about.html'),
                     ('Sammelsurium', 'category/sammelsurium.html'),
                     ('Buy me a coffee', 'https://www.buymeacoffee.com/smeerws'),)
 
@@ -75,10 +74,31 @@ I18N_SUBSITES = {
 		    ('VR-Photopainting', 'category/vr-photopainting.html'),
                     ('VR-Sculpting', 'category/vr-sculpting.html'),
                     ('VR-Tools', 'category/vr-tools.html'),
-                    ('About me', 'pages/about-me.html'),
+                    ('About me', 'pages/about.html'),
                     ('Ragbag', 'category/ragbag.html'),
                     ('Buy me a coffee', 'https://www.buymeacoffee.com/smeerws'),)
     }
+}
+
+def extract_trans(article, lang, default_lang, url):
+    if hasattr(article, 'translations'):
+        for trans in article.translations:
+            if trans.lang == lang:
+                return trans.url
+        return url
+    else:
+        try: mi_from = I18N_SUBSITES[default_lang]['CUSTOM_MENUITEMS']
+        except KeyError: mi_from = CUSTOM_MENUITEMS
+        try: mi_to = I18N_SUBSITES[lang]['CUSTOM_MENUITEMS']
+        except KeyError: mi_to = CUSTOM_MENUITEMS
+        try:
+            idx = [u for t, u in mi_from].index(article.url)
+            return mi_to[idx][1]
+        except:
+            return url
+
+JINJA_FILTERS = {
+    'extract_trans': extract_trans,
 }
 
 # Uncomment following line if you want document-relative URLs when developing

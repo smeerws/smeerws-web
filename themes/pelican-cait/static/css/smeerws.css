@@ -41,3 +41,12 @@
     /*background-color: blue;*/
     text-align: center;
 }
+
+
+#nav-links li.active a {
+    background-color: #38c5c5;
+}
+
+#nav-links li.active a:hover {
+    background-color: #272822;
+}
