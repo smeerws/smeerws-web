@@ -1,6 +1,7 @@
 Title: "Meine VR Werkzeuge"
 Date: 2018-04-18 20:00
 Category: VR-Werkzeuge
+Slug: vrtools
 Lang: de
 
 ![Smeerws Ars]({filename}images/arsvrsus-web.jpg "Smeerws Ars")

@@ -2,6 +2,7 @@ Title: "My first selfmade Dirndl"
 Date: 2017-06-18 22:00
 Category: Ragbag
 Lang: en
+Slug: dirndlgray
 
 ![Dirndl gray]({filename}images/ragbag/dirndl-gray.jpg "Dirndl Gray")
 

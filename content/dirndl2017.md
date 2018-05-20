@@ -2,6 +2,7 @@ Title: "Mein erstes selbstgemachtes Dirndl"
 Date: 2017-06-18 22:00
 Category: Sammelsurium
 Lang: de
+Slug: dirndlgray
 
 ![Dirndl gray]({filename}images/ragbag/dirndl-gray.jpg "Dirndl Gray")
 

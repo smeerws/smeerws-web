@@ -2,6 +2,7 @@ Title: Über Mich
 Heading: SMEERWS
 Subheading: Logik bringt dich von A nach B. Deine Phantasie bringt dich überall hin. (Albert Einstein)
 Template: contact
+Slug: about
 Lang: de
 
 <img src="../images/smeerws-photo.jpg" width="200">

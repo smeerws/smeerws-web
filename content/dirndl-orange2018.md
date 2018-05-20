@@ -2,6 +2,7 @@ Title: "Mein zweites selbstgemachtes Dirndl"
 Date: 2018-04-28 20:00
 Category: Sammelsurium
 Lang: de
+Slug: dirndlorange
 
 ![Dirndl Orange]({filename}images/ragbag/dirndl-orange.jpg "Dirndl Orange")
 

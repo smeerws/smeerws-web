@@ -2,6 +2,7 @@ Title: About me
 Heading: SMEERWS
 Subheading: Logic will get you from A to B. Imagination will take you everywhere. (Albert Einstein)
 Template: contact
+Slug: about
 Lang: en
 
 <img src="../../images/smeerws-photo.jpg" width="200">
