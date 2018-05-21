@@ -1,8 +1,23 @@
 <footer id="site-info">
-    <p>
-        Proudly powered by <a href="http://getpelican.com/" target="pelican">Pelican</a> and <a href="http://python.org/" target="python">Python</a>. Theme by <a href="https://github.com/hdra/pelican-cait" target="github">hndr</a>.
-    </p>
-    <p>
-        Textures by <a href="http://subtlepatterns.com/" target="subtlepatterns">Subtle Pattern</a>. Font Awesome by <a href="http://fortawesome.github.io/Font-Awesome/" target="github">Dave Grandy</a>.
-    </p>
+        <nav>
+        <ul id="trans-links"  class="centered-nav">
+        <li>Theme by <a href="https://github.com/hdra/pelican-cait" target="github">hndr</a>.</li>
+         {% if lang_siteurls %}
+         {% for lang, url in lang_siteurls.items() %}
+            <li {% if lang == DEFAULT_LANG %} class="active"{% endif %}>
+            <a href=
+                {% if article and lang != DEFAULT_LANG %}"{{ SITEURL }}/{{ article | extract_trans(lang, DEFAULT_LANG, url) }}"
+                {% elif article %}"{{ SITEURL }}/{{ article.url }}"
+                {% elif page and lang != DEFAULT_LANG %}"{{ SITEURL }}/{{ page | extract_trans(lang, DEFAULT_LANG, url) }}"
+                {% elif page %}"{{ SITEURL }}/{{ page.url }}"
+                {% elif category and lang != DEFAULT_LANG %}"{{ SITEURL }}/..{{ url }}/{{ category | extract_trans(lang, DEFAULT_LANG, url) }}"
+                {% elif category %}"{{ SITEURL }}/..{{ url }}/{{ category.url }}AA"
+                {% elif lang != DEFAULT_LANG %}"/..{{ url }}"
+                {% else %}""{% endif %}>{{ lang }}
+                </a>
+                </li>
+            {% endfor %}
+            {% endif %}
+	</ul>
+    </nav>
 </footer>

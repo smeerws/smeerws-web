@@ -43,10 +43,20 @@
 }
 
 
-#nav-links li.active a {
+#trans-links li.active a {
     background-color: #38c5c5;
 }
 
-#nav-links li.active a:hover {
+#trans-links li.active a:hover {
     background-color: #272822;
 }
+
+#trans-links li{
+     display: inline-block;
+     border: 2px solid;
+     font-family: "Oswald", sans-serif;
+     font-size: 1.4em;
+     padding-left: 1em;
+     padding-right: 0.2em;
+}
+

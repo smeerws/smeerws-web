@@ -6,23 +6,6 @@
     </hgroup>
     <nav>
         <ul id="nav-links">
-         {% if lang_siteurls %}
-         {% for lang, url in lang_siteurls.items() %}
-            <li {% if lang == DEFAULT_LANG %} class="active"{% endif %}>
-            <a href=
-                {% if article and lang != DEFAULT_LANG %}"{{ SITEURL }}/{{ article | extract_trans(lang, DEFAULT_LANG, url) }}"
-                {% elif article %}"{{ SITEURL }}/{{ article.url }}"
-                {% elif page and lang != DEFAULT_LANG %}"{{ SITEURL }}/{{ page | extract_trans(lang, DEFAULT_LANG, url) }}"
-                {% elif page %}"{{ SITEURL }}/{{ page.url }}"
-                {% elif category and lang != DEFAULT_LANG %}"{{ SITEURL }}/..{{ url }}/{{ category | extract_trans(lang, DEFAULT_LANG, url) }}"
-                {% elif category %}"{{ SITEURL }}/..{{ url }}/{{ category.url }}AA"
-                {% elif lang != DEFAULT_LANG %}"/..{{ url }}"
-                {% else %}""{% endif %}>{{ lang }}
-                </a>
-                </li>
-            {% endfor %}
-            {% endif %}
-        <!-- <ul id="nav-links"> -->
             {% if USE_CUSTOM_MENU %}
             {% for name, url in CUSTOM_MENUITEMS %}
                 {% if url.startswith('http') %}
@@ -37,6 +20,7 @@
             {% endfor %}
             {% endif %}
         </ul>
+
     </nav>
     {% include "footer.html" %}
 </header>
