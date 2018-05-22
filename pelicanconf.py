@@ -10,6 +10,8 @@ SITESUBTITLE = 'Hi! Ich liebe es kreativ zu arbeiten, in jeder Realität, die mi
 #SITESUBTITLE = 'VR [Artist]'
 THEME = u'themes/pelican-cait'
 
+GOOGLE_ANALYTICS = 'UA-119698590-1'
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
