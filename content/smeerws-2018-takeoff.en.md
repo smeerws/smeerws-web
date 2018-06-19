@@ -1,12 +1,13 @@
 Title: "Takeoff 2018"
 Date: 2018-03-28 20:00
 Category: VR-Photopainting
+Tags: Tilt Brush
 Lang: en
 
 ![Takeoff]({filename}images/vrtakeoff/cr-smeerws-takeoff1.jpg "Takeoff")
 
 
-The virtual world "Takeoff" has been realized in Virtual Reality (VR) with [Tilt Brush](https://www.tiltbrush.com/), a 3D painting and drawing software. The [3D version of "Takeoff" is published on Poly](https://poly.google.com/view/59etaUGzSNF), a platform to share and publish 3D contents. The following images are so-to-say photographies taken from this created wrold and have been printed on art paper in different sizes.
+The virtual world "Takeoff" has been realized in Virtual Reality (VR) with [Tilt Brush](https://www.tiltbrush.com/), a 3D painting and drawing software. The [3D version of "Takeoff" is published on Poly](https://poly.google.com/view/73KM_BeM6Q8), a platform to share and publish 3D contents. The following images are so-to-say photographies taken from this created wrold and have been printed on art paper in different sizes.
 
 # Art Prints:
 
