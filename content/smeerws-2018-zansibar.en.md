@@ -1,6 +1,7 @@
 Title: "Zansibar 2018"
 Date: 2018-05-04 20:00
 Category: VR-Photopainting
+Tags: Tilt Brush
 Lang: en
 
 ![Zansibar]({filename}images/vrzansibar/cr-smeerws-zansibar1.jpg "Zansibar")
@@ -11,7 +12,7 @@ The virtual world "Zansibar" has been realized in Virtual Reality (VR) with [Til
 # Art Prints:
 
 * ## 1 x A3 art print collage signed
-![Zansibar]({filename}images/vrzansibar/cr-smeerws-zansibar-a3.jpg "Zansibar")
+![Zansibar]({filename}images/vrzansibar/cr-smeerws-pzansibar-a3.jpg "Zansibar")
 
 * ## 10 x A4 art print single photopainting series I, signed 
 
