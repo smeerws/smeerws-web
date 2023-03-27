@@ -8,7 +8,7 @@ SITEURL = ''
 SITEDESCRIPTION='Site Description'
 SITESUBTITLE = 'Hi! Ich liebe es kreativ zu arbeiten, in jeder Realität, die mir zur Verfügung steht. Meine Werkzeuge reichen von Pinsel und Leinwand bis zum plastischen Gestalten mit Brille und Kreativprogramm in der virtuellen Realität.'
 #SITESUBTITLE = 'VR [Artist]'
-THEME = u'themes/pelican-cait'
+THEME = u'../pelican-themes/pelican-cait'
 
 GOOGLE_ANALYTICS = 'UA-119698590-1'
 
