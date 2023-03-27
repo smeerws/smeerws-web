@@ -2,6 +2,13 @@
 
 Install Pelican 3.7.1 on Ubuntu 16.04 LTS
 
+Windows: 
++ Install python (Download from Website https://www.python.org/downloads/, install python !enable add to Path!)
++ Clone pelican themes with https: 
+```
+git clone --recursive https://github.com/getpelican/pelican-themes ~/pelican-themes
+```
+
 Follow the instructions on http://docs.getpelican.com/en/stable/install.html
 
 1) install pip
